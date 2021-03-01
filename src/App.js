@@ -95,7 +95,7 @@ function ChatMessage(props) {
   const messageClass = uid === auth.currentUser.uid ? 'sent' : 'recieved';
   return (
     <div className={`message ${messageClass}`}>
-      <imgg src={photoURL} />
+      <img src={photoURL} />
       <p>{text}</p>
     </div>
   )
